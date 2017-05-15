@@ -49,10 +49,10 @@ app.get('/about', (req, res) => {
   });
 });
 
-app.get('/portfolio', (req, res) => {
-  res.render('portfolio.hbs', {
-    pageTitle: 'Portfolio Page',
-    description: 'This is the Portfolio page'
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects Page',
+    welcomeMessage: 'This is my Projects page'
   });
 });
 
